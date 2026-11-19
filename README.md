@@ -62,16 +62,12 @@ Joint states are on `/j100_0001/platform/joint_states` (arm + gripper + wheels);
     docs/troubleshooting.md
 
 ## Demo videos
-Recorded while the robot is driven by the keyboard teleop with real keystrokes.
+Recorded while the robot is driven by the keyboard teleop with real keystrokes. Click a preview for the full-quality MP4.
 
 **Gazebo** (3D view following the robot)
 
-<video src="https://github.com/haidar996/jackal-gen3lite-sim/raw/main/docs/demo_gazebo.mp4" controls muted width="100%"></video>
-
-[Download / open: docs/demo_gazebo.mp4](docs/demo_gazebo.mp4)
+[![Gazebo demo](docs/demo_gazebo.gif)](docs/demo_gazebo.mp4)
 
 **RViz** (fixed frame `odom`, RobotModel + TF; config in `src/jackal_gen3lite_teleop/rviz/demo.rviz`)
 
-<video src="https://github.com/haidar996/jackal-gen3lite-sim/raw/main/docs/demo_rviz.mp4" controls muted width="100%"></video>
-
-[Download / open: docs/demo_rviz.mp4](docs/demo_rviz.mp4)
+[![RViz demo](docs/demo_rviz.gif)](docs/demo_rviz.mp4)
