@@ -1,0 +1,21 @@
+build/
+install/
+log/
+__pycache__/
+# Clearpath-generated files (regenerated from config/robot.yaml)
+config/*.urdf.xacro
+config/*.srdf*
+config/platform/
+config/manipulators/
+config/sensors/
+config/robot.urdf*
+config/launch/
+
+# Not published
+CLAUDE.md
+PROGRESS.md
+.claude/
+.pytest_cache/
+src/*/test/
+scripts/test_all.sh
+scripts/record_demo.*
